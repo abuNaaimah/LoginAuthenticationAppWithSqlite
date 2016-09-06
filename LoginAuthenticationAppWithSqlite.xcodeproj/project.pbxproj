@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71809021D7E98D000A6B091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809011D7E98D000A6B091 /* main.m */; };
+		E71809051D7E98D000A6B091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809041D7E98D000A6B091 /* AppDelegate.m */; };
+		E71809081D7E98D000A6B091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809071D7E98D000A6B091 /* ViewController.m */; };
+		E718090B1D7E98D000A6B091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71809091D7E98D000A6B091 /* Main.storyboard */; };
+		E718090D1D7E98D000A6B091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E718090C1D7E98D000A6B091 /* Assets.xcassets */; };
+		E71809101D7E98D000A6B091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */; };
+		E718091B1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E718091A1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m */; };
+		E71809261D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809251D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E71809171D7E98D000A6B091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71808F51D7E98D000A6B091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71808FC1D7E98D000A6B091;
+			remoteInfo = LoginAuthenticationAppWithSqlite;
+		};
+		E71809221D7E98D000A6B091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E71808F51D7E98D000A6B091 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E71808FC1D7E98D000A6B091;
+			remoteInfo = LoginAuthenticationAppWithSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E71808FD1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAuthenticationAppWithSqlite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71809011D7E98D000A6B091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E71809031D7E98D000A6B091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E71809041D7E98D000A6B091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E71809061D7E98D000A6B091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E71809071D7E98D000A6B091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E718090A1D7E98D000A6B091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E718090C1D7E98D000A6B091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E718090F1D7E98D000A6B091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E71809111D7E98D000A6B091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71809161D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAuthenticationAppWithSqliteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E718091A1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAuthenticationAppWithSqliteTests.m; sourceTree = "<group>"; };
+		E718091C1D7E98D000A6B091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71809211D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAuthenticationAppWithSqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71809251D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAuthenticationAppWithSqliteUITests.m; sourceTree = "<group>"; };
+		E71809271D7E98D000A6B091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71808FA1D7E98D000A6B091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71809131D7E98D000A6B091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E718091E1D7E98D000A6B091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71808F41D7E98D000A6B091 = {
+			isa = PBXGroup;
+			children = (
+				E71808FF1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */,
+				E71809191D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests */,
+				E71809241D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests */,
+				E71808FE1D7E98D000A6B091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E71808FE1D7E98D000A6B091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71808FD1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite.app */,
+				E71809161D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.xctest */,
+				E71809211D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E71808FF1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				E71809031D7E98D000A6B091 /* AppDelegate.h */,
+				E71809041D7E98D000A6B091 /* AppDelegate.m */,
+				E71809061D7E98D000A6B091 /* ViewController.h */,
+				E71809071D7E98D000A6B091 /* ViewController.m */,
+				E71809091D7E98D000A6B091 /* Main.storyboard */,
+				E718090C1D7E98D000A6B091 /* Assets.xcassets */,
+				E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */,
+				E71809111D7E98D000A6B091 /* Info.plist */,
+				E71809001D7E98D000A6B091 /* Supporting Files */,
+			);
+			path = LoginAuthenticationAppWithSqlite;
+			sourceTree = "<group>";
+		};
+		E71809001D7E98D000A6B091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E71809011D7E98D000A6B091 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E71809191D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E718091A1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m */,
+				E718091C1D7E98D000A6B091 /* Info.plist */,
+			);
+			path = LoginAuthenticationAppWithSqliteTests;
+			sourceTree = "<group>";
+		};
+		E71809241D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E71809251D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m */,
+				E71809271D7E98D000A6B091 /* Info.plist */,
+			);
+			path = LoginAuthenticationAppWithSqliteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71808FC1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E718092A1D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqlite" */;
+			buildPhases = (
+				E71808F91D7E98D000A6B091 /* Sources */,
+				E71808FA1D7E98D000A6B091 /* Frameworks */,
+				E71808FB1D7E98D000A6B091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginAuthenticationAppWithSqlite;
+			productName = LoginAuthenticationAppWithSqlite;
+			productReference = E71808FD1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E71809151D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E718092D1D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteTests" */;
+			buildPhases = (
+				E71809121D7E98D000A6B091 /* Sources */,
+				E71809131D7E98D000A6B091 /* Frameworks */,
+				E71809141D7E98D000A6B091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71809181D7E98D000A6B091 /* PBXTargetDependency */,
+			);
+			name = LoginAuthenticationAppWithSqliteTests;
+			productName = LoginAuthenticationAppWithSqliteTests;
+			productReference = E71809161D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E71809201D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71809301D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteUITests" */;
+			buildPhases = (
+				E718091D1D7E98D000A6B091 /* Sources */,
+				E718091E1D7E98D000A6B091 /* Frameworks */,
+				E718091F1D7E98D000A6B091 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71809231D7E98D000A6B091 /* PBXTargetDependency */,
+			);
+			name = LoginAuthenticationAppWithSqliteUITests;
+			productName = LoginAuthenticationAppWithSqliteUITests;
+			productReference = E71809211D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71808F51D7E98D000A6B091 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tops;
+				TargetAttributes = {
+					E71808FC1D7E98D000A6B091 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					E71809151D7E98D000A6B091 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E71808FC1D7E98D000A6B091;
+					};
+					E71809201D7E98D000A6B091 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E71808FC1D7E98D000A6B091;
+					};
+				};
+			};
+			buildConfigurationList = E71808F81D7E98D000A6B091 /* Build configuration list for PBXProject "LoginAuthenticationAppWithSqlite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E71808F41D7E98D000A6B091;
+			productRefGroup = E71808FE1D7E98D000A6B091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71808FC1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */,
+				E71809151D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests */,
+				E71809201D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71808FB1D7E98D000A6B091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71809101D7E98D000A6B091 /* LaunchScreen.storyboard in Resources */,
+				E718090D1D7E98D000A6B091 /* Assets.xcassets in Resources */,
+				E718090B1D7E98D000A6B091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71809141D7E98D000A6B091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E718091F1D7E98D000A6B091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71808F91D7E98D000A6B091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71809081D7E98D000A6B091 /* ViewController.m in Sources */,
+				E71809051D7E98D000A6B091 /* AppDelegate.m in Sources */,
+				E71809021D7E98D000A6B091 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71809121D7E98D000A6B091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E718091B1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E718091D1D7E98D000A6B091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71809261D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E71809181D7E98D000A6B091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71808FC1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */;
+			targetProxy = E71809171D7E98D000A6B091 /* PBXContainerItemProxy */;
+		};
+		E71809231D7E98D000A6B091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E71808FC1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */;
+			targetProxy = E71809221D7E98D000A6B091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E71809091D7E98D000A6B091 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E718090A1D7E98D000A6B091 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E718090F1D7E98D000A6B091 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71809281D7E98D000A6B091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E71809291D7E98D000A6B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E718092B1D7E98D000A6B091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E718092C1D7E98D000A6B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqlite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqlite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E718092E1D7E98D000A6B091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAuthenticationAppWithSqlite.app/LoginAuthenticationAppWithSqlite";
+			};
+			name = Debug;
+		};
+		E718092F1D7E98D000A6B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqliteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqliteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginAuthenticationAppWithSqlite.app/LoginAuthenticationAppWithSqlite";
+			};
+			name = Release;
+		};
+		E71809311D7E98D000A6B091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginAuthenticationAppWithSqlite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E71809321D7E98D000A6B091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginAuthenticationAppWithSqliteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tops.LoginAuthenticationAppWithSqliteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginAuthenticationAppWithSqlite;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71808F81D7E98D000A6B091 /* Build configuration list for PBXProject "LoginAuthenticationAppWithSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71809281D7E98D000A6B091 /* Debug */,
+				E71809291D7E98D000A6B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E718092A1D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E718092B1D7E98D000A6B091 /* Debug */,
+				E718092C1D7E98D000A6B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E718092D1D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E718092E1D7E98D000A6B091 /* Debug */,
+				E718092F1D7E98D000A6B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E71809301D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71809311D7E98D000A6B091 /* Debug */,
+				E71809321D7E98D000A6B091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E71808F51D7E98D000A6B091 /* Project object */;
+}
