@@ -10,11 +10,14 @@
 		E71809021D7E98D000A6B091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809011D7E98D000A6B091 /* main.m */; };
 		E71809051D7E98D000A6B091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809041D7E98D000A6B091 /* AppDelegate.m */; };
 		E71809081D7E98D000A6B091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809071D7E98D000A6B091 /* ViewController.m */; };
-		E718090B1D7E98D000A6B091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71809091D7E98D000A6B091 /* Main.storyboard */; };
 		E718090D1D7E98D000A6B091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E718090C1D7E98D000A6B091 /* Assets.xcassets */; };
 		E71809101D7E98D000A6B091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */; };
 		E718091B1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E718091A1D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests.m */; };
 		E71809261D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809251D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m */; };
+		E71809391D7EA30900A6B091 /* DBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E71809381D7EA30900A6B091 /* DBHandler.m */; };
+		E718093C1D7EB50500A6B091 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E718093B1D7EB50500A6B091 /* RegisterViewController.m */; };
+		E718093E1D7EBC3F00A6B091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E718093D1D7EBC3F00A6B091 /* Main.storyboard */; };
+		E73987571D828A3600B4E0DF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E73987561D828A3600B4E0DF /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 		E71809041D7E98D000A6B091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E71809061D7E98D000A6B091 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E71809071D7E98D000A6B091 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E718090A1D7E98D000A6B091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E718090C1D7E98D000A6B091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E718090F1D7E98D000A6B091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E71809111D7E98D000A6B091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		E71809211D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAuthenticationAppWithSqliteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71809251D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAuthenticationAppWithSqliteUITests.m; sourceTree = "<group>"; };
 		E71809271D7E98D000A6B091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71809371D7EA30900A6B091 /* DBHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHandler.h; sourceTree = "<group>"; };
+		E71809381D7EA30900A6B091 /* DBHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHandler.m; sourceTree = "<group>"; };
+		E718093A1D7EB50500A6B091 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		E718093B1D7EB50500A6B091 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		E718093D1D7EBC3F00A6B091 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E73987561D828A3600B4E0DF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73987571D828A3600B4E0DF /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 		E71808F41D7E98D000A6B091 = {
 			isa = PBXGroup;
 			children = (
+				E73987561D828A3600B4E0DF /* libsqlite3.0.tbd */,
 				E71808FF1D7E98D000A6B091 /* LoginAuthenticationAppWithSqlite */,
 				E71809191D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteTests */,
 				E71809241D7E98D000A6B091 /* LoginAuthenticationAppWithSqliteUITests */,
@@ -103,9 +113,13 @@
 			children = (
 				E71809031D7E98D000A6B091 /* AppDelegate.h */,
 				E71809041D7E98D000A6B091 /* AppDelegate.m */,
+				E71809371D7EA30900A6B091 /* DBHandler.h */,
+				E71809381D7EA30900A6B091 /* DBHandler.m */,
 				E71809061D7E98D000A6B091 /* ViewController.h */,
 				E71809071D7E98D000A6B091 /* ViewController.m */,
-				E71809091D7E98D000A6B091 /* Main.storyboard */,
+				E718093A1D7EB50500A6B091 /* RegisterViewController.h */,
+				E718093B1D7EB50500A6B091 /* RegisterViewController.m */,
+				E718093D1D7EBC3F00A6B091 /* Main.storyboard */,
 				E718090C1D7E98D000A6B091 /* Assets.xcassets */,
 				E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */,
 				E71809111D7E98D000A6B091 /* Info.plist */,
@@ -245,7 +259,7 @@
 			files = (
 				E71809101D7E98D000A6B091 /* LaunchScreen.storyboard in Resources */,
 				E718090D1D7E98D000A6B091 /* Assets.xcassets in Resources */,
-				E718090B1D7E98D000A6B091 /* Main.storyboard in Resources */,
+				E718093E1D7EBC3F00A6B091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E718093C1D7EB50500A6B091 /* RegisterViewController.m in Sources */,
 				E71809081D7E98D000A6B091 /* ViewController.m in Sources */,
 				E71809051D7E98D000A6B091 /* AppDelegate.m in Sources */,
+				E71809391D7EA30900A6B091 /* DBHandler.m in Sources */,
 				E71809021D7E98D000A6B091 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E71809091D7E98D000A6B091 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E718090A1D7E98D000A6B091 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E718090E1D7E98D000A6B091 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +506,7 @@
 				E718092C1D7E98D000A6B091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E718092D1D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +515,7 @@
 				E718092F1D7E98D000A6B091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E71809301D7E98D000A6B091 /* Build configuration list for PBXNativeTarget "LoginAuthenticationAppWithSqliteUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +524,7 @@
 				E71809321D7E98D000A6B091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

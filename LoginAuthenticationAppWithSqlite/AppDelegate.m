@@ -13,11 +13,28 @@
 @end
 
 @implementation AppDelegate
-
+@synthesize dbPath;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setMyDB];
+    
     return YES;
+}
+
+-(void)setMyDB
+{
+    NSArray *tempArray = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *tempString = [tempArray objectAtIndex:0];
+    dbPath = [tempString stringByAppendingPathComponent:@"LoginAuthAppDB.sqlite"];
+    
+    if (![[NSFileManager defaultManager]fileExistsAtPath:dbPath]) {
+        NSString *localDB = [[NSBundle mainBundle]pathForResource:@"LoginAuthAppDB" ofType:@"sqlite"];
+        [[NSFileManager defaultManager] copyItemAtPath:localDB toPath:dbPath error:nil];
+    }
+    NSLog(@"%@", dbPath);
+    
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
